@@ -1,0 +1,291 @@
+{
+    "times": [
+        {
+            "id": "1",
+            "nome": "Programação",
+            "cor": "#57C278"
+        },
+        {
+            "id": "2",
+            "nome": "Front-End",
+            "cor": "#82CFFA"
+        },
+        {
+            "id": "3",
+            "nome": "Data Science",
+            "cor": "#A6D157"
+        },
+        {
+            "id": "4",
+            "nome": "Devops",
+            "cor": "#E06B69"
+        },
+        {
+            "id": "5",
+            "nome": "UX e Design",
+            "cor": "#DB6EBF"
+        },
+        {
+            "id": "6",
+            "nome": "Mobile",
+            "cor": "#FFBA05"
+        },
+        {
+            "id": "7",
+            "nome": "Inovação e Gestão",
+            "cor": "#FF8A29"
+        }
+    ],
+    "colaboradores": [
+        {
+            "id": "1",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "2",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "3",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "4",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "5",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "2"
+            }
+        },
+        {
+            "id": "6",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "2"
+            }
+        },
+        {
+            "id": "7",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "2"
+            }
+        },
+        {
+            "id": "8",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "2"
+            }
+        },
+        {
+            "id": "9",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "3"
+            }
+        },
+        {
+            "id": "10",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "3"
+            }
+        },
+        {
+            "id": "11",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "3"
+            }
+        },
+        {
+            "id": "12",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "3"
+            }
+        },
+        {
+            "id": "13",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "4"
+            }
+        },
+        {
+            "id": "14",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "4"
+            }
+        },
+        {
+            "id": "15",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "4"
+            }
+        },
+        {
+            "id": "16",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "4"
+            }
+        },
+        {
+            "id": "17",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "5"
+            }
+        },
+        {
+            "id": "18",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "5"
+            }
+        },
+        {
+            "id": "19",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "5"
+            }
+        },
+        {
+            "id": "20",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "5"
+            }
+        },
+        {
+            "id": "21",
+            "favorito": false,
+            "nome": "JULIANA AMOASEI",
+            "cargo": "Desenvolvedora de software e instrutora",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
+            "time": {
+                "id": "6"
+            }
+        },
+        {
+            "id": "22",
+            "favorito": false,
+            "nome": "DANIEL ARTINE",
+            "cargo": "Engenheiro de Software na Stone Age",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
+            "time": {
+                "id": "6"
+            }
+        },
+        {
+            "id": "23",
+            "favorito": false,
+            "nome": "GUILHERME LIMA",
+            "cargo": "Desenvolvedor Python e JavaScript na Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
+            "time": {
+                "id": "6"
+            }
+        },
+        {
+            "id": "24",
+            "favorito": false,
+            "nome": "PAULO SILVEIRA",
+            "cargo": "Hipster e CEO da Alura",
+            "imagem": "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
+            "time": {
+                "id": "6"
+            }
+        },
+        {
+            "id": "25",
+            "favorito": false,
+            "nome": "RODRIGO CAMPOS",
+            "cargo": "Hipster",
+            "imagem": "https://github.com/rod-campos.png",
+            "time": {
+                "id": "1"
+            }
+        }
+    ]
+}

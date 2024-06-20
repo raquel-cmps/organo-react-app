@@ -1,12 +1,13 @@
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Time from "./componentes/Time";
 import Rodape from "./componentes/Rodape";
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
 
+    /*
     const [times, setTimes] = useState([
         {
             id: uuidv4(),
@@ -238,13 +239,66 @@ function App() {
             time: times[5].nome
         },
     ]
+    */
 
-    const [colaboradores, setColaboradores] = useState(inicial)
+    const [times, setTimes] = useState([
+        {
+            id: uuidv4(),
+            nome: '',
+            cor: ''
+        }
+    ])
+    const [colaboradores, setColaboradores] = useState([
+        {
+            id: uuidv4(),
+            nome: '',
+            favorito: false,
+            cargo: '',
+            imagem: '',
+            time: { id: '', nome: '', cor: '' }
+        }
+    ])
 
+    useEffect(() => {
+        fetch('http://localhost:8080/times')
+            .then(resposta => resposta.json())
+            .then(dados => {
+                setTimes(dados)
+            })
+    }, []) // o react vai execultar apenas uma vez po conta do array vazio
+
+    useEffect(() => {
+        fetch('http://localhost:8080/colaboradores')
+            .then(resposta => resposta.json())
+            .then(dados => {
+                setColaboradores(dados)
+            })
+    }, [])
+    /*
+    useEffect(() => {
+        console.log(colaboradores);
+    }, [colaboradores]);
+    */
     const aoNovoCalaboradorAdicionado = (colaborador) => {
-        //debugger
-        //estou pegando os meus colaboradores antigos e adicionando o que acabou de chegar no final de um novo array
-        setColaboradores([...colaboradores, colaborador])
+        console.log("Colaborador recebido:", colaborador);
+        console.log("Times disponíveis:", times);
+
+        let obj = {
+            id: uuidv4(),
+            favorito: false,
+            nome: colaborador.nome,
+            cargo: colaborador.cargo,
+            imagem: colaborador.imagem,
+            time: times.find(time => time.nome === colaborador.time)
+        };
+
+        if (!obj.time) {
+            console.error("Time não encontrado para o ID:", colaborador.time);
+            return; // Interrompe a execução se o time não for encontrado
+        }
+
+        console.log("Novo objeto de colaborador:", obj);
+        setColaboradores([...colaboradores, obj]);
     }
 
     function deletarColaborador(id) {
@@ -272,6 +326,11 @@ function App() {
             })
         )
     }
+
+    function lincarColaboradorAoTime(time) {
+        let colab = colaboradores.filter(colaborador => colaborador.time.id === time)
+        return colab
+    }
     return (
         <div className="App">
             <Banner />
@@ -287,8 +346,8 @@ function App() {
                     time={time}
                     cor={time.cor}
                     mudarCor={mudarCorDoTime}
-                    key={time.nome} nome={time.nome}
-                    colaborador={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+                    key={time.id} nome={time.nome}
+                    colaborador={lincarColaboradorAoTime(time.id)}
                     aoDeletar={deletarColaborador}
                 />
             )}
